@@ -1,5 +1,6 @@
 ### Much simpler way to write a C script to manage devices using ssh
-
+- Cleaned up safer version of the script is c_sshv2.c
+  - use of snprintf() is considered better practice to avoid buffer overruns 
 - So I will say this was a hell of a lot easier than using libssh.
 - I used **stdlib.h** with **system()** which can call shell commands, and in my case ssh.
 - I did install sshpass to call the password in the script so I didn't have to keep entering it while the script was running.
