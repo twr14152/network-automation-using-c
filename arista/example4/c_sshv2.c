@@ -11,6 +11,7 @@ static const char *routers[] = {
 };
 
 int main(int argc, char *argv[]) {
+    printf("Running c version: %ld\n", __STDC_VERSION__);
     if (argc < 2) {
         fprintf(stderr, "Usage: %s <missing_ssh_password>\n", argv[0]);
         return EXIT_FAILURE;
