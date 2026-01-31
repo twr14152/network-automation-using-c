@@ -7,7 +7,7 @@
 - Upon further investigation the use of system(ssh cmd) is ***NOT recommended*** for anything but simple quick use cases. System() is less equipped to handle errors or responses in a programatic way. Hense why the recommend libssh for building clients.
 -  I need to give gentleman who brought this up on reddit his due he was correct in that the linux shell command is very capable. Without investigating it I wouldnt know how capabable.
 -  I do need to preface this, I used C because thats what this repo is about, but you can do the same thing with python, bash, Go...etc... I'm guessing it would be even easier, but again thats not what this is about....
--  Quick and easy scripts but **not recommended** for long term solutions
+-  Quick and easy scripts but **not recommended** for long term solutions. 
   * arista/example4/c_ssh.c 
   * cisco/example3/c_ssh.c  
 ### 07/28/2025
