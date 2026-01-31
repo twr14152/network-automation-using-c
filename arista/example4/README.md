@@ -1,5 +1,5 @@
 ### Much simpler way to write a C script to manage devices using ssh
-- I've read that this is NOT the recommended way to access devices.....And the libssh is the more appropriate method, for reponse/error handling. But for quick easy use this is fine.
+- I've read that this is NOT the recommended way to access devices..... And that the libssh is the more appropriate method (So go back to example3 for more details), the reason being reponse and error handling by the system is not equipped to deal with called application responses programatically. But for quick easy use this is fine.
 - Cleaned up safer version of the script is c_sshv2.c
   - use of snprintf() is considered better practice to avoid buffer overruns 
 - So I will say this was a hell of a lot easier than using libssh.
